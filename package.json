@@ -1,12 +1,25 @@
 {
   "name": "filesize",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/708y/filesize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/708y/filesize/issues"
+  },
+  "homepage": "https://github.com/708y/filesize#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "multer": "^1.2.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }
